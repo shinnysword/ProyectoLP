@@ -2,7 +2,6 @@
     pageEncoding="ISO-8859-1"%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-hola q ace
 <!DOCTYPE html>
 <html>
 <c:import url="head.jsp" />
