@@ -160,34 +160,17 @@
       <div class="row">
         <div class="one whole padded">
           <div class="bounceInLeft animated">
-            <h4>Agregar Juegos</h4>
+            <h4>Documentación de Ayuda</h4>
             <div class="row">
                 <div class="one half padded">
-                  <label for="name">Juego</label>
-                  <select>
-                      <option value="" disabled="" selected="">Nombre del Juego</option>
-                      <option value="1">BatleField IV</option>
-                      <option value="2">StarCraft II</option>
-                    </select>
+                <a href="#" rel="directory">Directory Link</a><br>
+                  <a href="example.doc">Word Document Link</a><br>
+                  <a href="example.pdf">PDF Document Link</a><br>
+                  <a href="example.zip">ZIP File Link</a>
                 </div>
-                <div class="one half padded">
-                  <label for="name">Licencia</label>
-                  <input id="name" type="text" placeholder="Licensia" required>
-                </div>
-                
               </div>
-                
               </div>
 
-            <div class="row">
-                <div class="">
-                  <label for="name"></label>
-                  <input id="name" type="button" value="Agregar" required>
-                  <input id="name" type="button" value="Actualizar" required>
-                  <input id="name" type="button" value="Limpiar" required>
-                  <input id="name" type="button" value="Eliminar" required>
-                </div>
-            </div>
             <div class="row">
               <div class="one whole pad-left pad-right">
               
