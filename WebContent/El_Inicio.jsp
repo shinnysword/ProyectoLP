@@ -3,7 +3,7 @@
 <html>
 <c:import url="head.jsp" />
 <body>
-<c:import url="header.jsp" />
+
 <div class="container">
 	<div class="padded">
     	<div class="row">

@@ -80,14 +80,14 @@
           <ul role="menubar">
             <li><a href="index.html"><i class="icon-home"></i> SASUKI</a></li>
             <li role="menu">
-              <button  onclick = "location='listado.html'">MANTENIMIENTOS</button>
+              <button  onclick = "#">Mantenimientos</button>
               <ul>
 				<li><a href="./adminMantenimientoJuegos.jsp" title="Icons">Juegos</a></li>
 				<li><a href="./admin_MantenimientoLicensias.jsp" title="Icons">Licensias</a></li>
-                <li><a href="./icons.html" title="Icons">Usuarios</a></li>
-                <li><a href="./responsive-text.html" title="Responsive text and multi-line text block truncation">Proximos Lanzamientos</a></li>
-                <li><a href="./placeholder-text.html" title="Placeholder text and placeholder fonts for rapid prototyping and wireframes">Los mas Recomendados</a></li>
-                <li><a href="./animations.html" title="Pure CSS3 Animations">Lo mas Rankeado</a></li>
+                <li><a href="#" title="User">Usuarios</a></li>
+                <li><a href="#" title="Responsive text and multi-line text block truncation">Proximos Lanzamientos</a></li>
+                <li><a href="#" title="Placeholder text and placeholder fonts for rapid prototyping and wireframes">Los mas Recomendados</a></li>
+                <li><a href="#">Lo mas Rankeado</a></li>
               </ul>
             </li>
       <li role="menu">
@@ -101,7 +101,6 @@
                 <li><a href="./placeholder-text.html" title="Placeholder text and placeholder fonts for rapid prototyping and wireframes">Eventos</a></li>
               </ul>
             </li>
-       <input id="search-box" name="q" onblur="if (this.value == &quot;&quot;) this.value = &quot;Buscar...&quot;;" onfocus="if (this.value == &quot;Buscar...&quot;) this.value = &quot;&quot;;" size="5" type="text" value="Buscar...">
           </ul>
      
         </nav>
@@ -115,7 +114,45 @@
             <p class="quicksand"></p>
           </div>
           <div class="two fifths align-right-ipad align-right-desktop flipInX animated">
+			--------------calendario de prueba ------------
+			<script languaje="JavaScript">
 
+           mesarray=new Array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio","Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+
+          diaarray=new Array( "Domingo","Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado");
+
+          hoy = new Date();
+
+          dias = hoy.getDate();
+
+          dia = hoy.getDay();
+
+          mes = hoy.getMonth();
+
+          mes=mesarray[mes];
+
+          dia =diaarray[dia];
+
+          anno = hoy.getYear();
+
+          if (anno <200)
+
+            anno = anno+1900;
+
+          document.write('<TABLE WIDTH="60" height="60" BORDER="2" BGCOLOR="#FFFFFF"><TR><TD><CENTER>');
+
+          document.write('<FONT SIZE="2" COLOR="#000000"> <B>'+mes+'</B></FONT><br>');
+
+          document.write('<FONT SIZE="1" COLOR="#000000">'+anno+'</FONT><br>');
+
+          document.write('<FONT SIZE="4" COLOR="#000000" FACE="Arial"><B>'+dias+'</B></FONT><br>');
+
+          document.write('<FONT SIZE="1" COLOR="#000000">'+dia+'</FONT><br>');
+
+          document.write('</CENTER></TR></TD></TABLE>');
+
+          </script>
+          ------------------------------------
           </div>
         </div>
       </div>
@@ -150,11 +187,10 @@
                   <input id="name" type="button" value="Limpiar" required>
                   <input id="name" type="button" value="Eliminar" required>
                 </div>
-
-              
             </div>
             <div class="row">
               <div class="one whole pad-left pad-right">
+              
               </div>
             </div>
           </div>
@@ -163,40 +199,7 @@
       </div>
     </div>
     <footer class="gap-top bounceInUp animated">
-      <div class="box square charcoal">
-        <div class="container padded">
-          <div class="row">
-            <div class="one small-tablet fourth padded">
-              <h5 class="green">Example Layouts</h5>
-              <ul class="unstyled">
-                <li><a href="./layout-a.html">Web Page</a></li>
-                <li><a href="./layout-b.html">Image Gallery</a></li>
-                <li><a href="./layout-c.html">Ecommerce Page</a></li>
-                <li><a href="./layout-d.html">Contact Page</a></li>
-              </ul>
-            </div>
-            <div class="three small-tablet fourths padded">
-              <h5 class="blue">Documentation</h5>
-              <ul class="unstyled three-column two-column-mobile">
-                <li><a href="./grid.html" title="Responsive grid system, grid adapters and helpers">Grid</a></li>
-                <li><a href="./helpers.html" title="Layout helpers, spinners and much more">Helpers</a></li>
-                <li><a href="./typography.html" title="Text elements, quotes, code and web fonts">Typography</a></li>
-                <li><a href="./navigation.html" title="Navigation">Navigation</a></li>
-                <li><a href="./buttons.html" title="Buttons, button groups, button menus">Buttons</a></li>
-                <li><a href="./boxes.html" title="Boxes">Boxes</a></li>
-                <li><a href="./messages.html" title="Message boxes">Message Boxes</a></li>
-                <li><a href="./tables.html" title="Tables">Tables</a></li>
-                <li><a href="./tabs.html" title="Tabs">Tabs</a></li>
-                <li><a href="./forms.html" title="Form elements">Form Elements</a></li>
-                <li><a href="./icons.html" title="Icons">Icons</a></li>
-                <li><a href="./responsive-text.html" title="Responsive text and multi-line text block truncation">Responsive Text</a></li>
-                <li><a href="./placeholder-text.html" title="Placeholder text and placeholder fonts for rapid prototyping and wireframes">Placeholder Text</a></li>
-                <li><a href="./animations.html" title="Pure CSS3 Animations">Animations</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+      
       <div class="box square">
         <div class="container padded">
           <div class="row">
@@ -205,7 +208,9 @@
               <p>Find a bug? Help squash it by <a href="https://github.com/groundworkcss/groundwork/issues" target="_blank">filing an issue</a> on Github.</p>
             </div>
             <div class="one half padded">
-              <p class="large padded align-right align-center-small-tablet"><a href="http://twitter.com/groundworkcss" target="_blank" title="@groundworkcss" style="text-decoration:none;" class="large inline gapped"></a><a href="http://github.com/groundworkcss" target="_blank" title="@groundworkcss" style="text-decoration:none;" class="large inline gapped"></a><a href="mailto:groundworkcss@gmail.com" title="groundworkcss@gmail.com" style="text-decoration:none;" class="large inline gapped"></a></p>
+              <p class="large padded align-right align-center-small-tablet"><a href="http://twitter.com" target="_blank" title="@groundworkcss" style="text-decoration:none;" class="large inline gapped"></a>
+              <a href="http://github.com/groundworkcss" target="_blank" title="@groundworkcss" style="text-decoration:none;" class="large inline gapped"></a>
+              <a href="mailto:groundworkcss@gmail.com" title="groundworkcss@gmail.com" style="text-decoration:none;" class="large inline gapped"></a></p>
             </div>
           </div>
         </div>
