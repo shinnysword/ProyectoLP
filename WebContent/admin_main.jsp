@@ -83,7 +83,7 @@
               <button  onclick = "#">Mantenimientos</button>
               <ul>
 				<li><a href="./adminMantenimientoJuegos.jsp" title="Icons">Juegos</a></li>
-				<li><a href="./admin_MantenimientoLicensias.jsp" title="Icons">Licensias</a></li>
+				<li><a href="./admin_MantenimientoLicensias.jsp" title="Icons">Licencias</a></li>
                 <li><a href="#" title="User">Usuarios</a></li>
                 <li><a href="#" title="Responsive text and multi-line text block truncation">Proximos Lanzamientos</a></li>
                 <li><a href="#" title="Placeholder text and placeholder fonts for rapid prototyping and wireframes">Los mas Recomendados</a></li>
@@ -110,16 +110,16 @@
       <div class="padded">
         <div class="row">
           <div class="three fifths bounceInRight animated">
-            <h1 class="zero museo-slab">Mantenimiento de Licencias</h1>
+            <h1 class="zero museo-slab">Principal / Mantenimiento</h1>
             <p class="quicksand"></p>
           </div>
-          <div class="two fifths align-right-ipad align-right-desktop flipInX animated">
-			--------------calendario de prueba ------------
+          <div class="two fifths align-right-ipad align-right-desktop flipInX animated" style="width: 10px; height: 10px; margin-left:27em">
+			<!--------------calendario de prueba ------------>
 			<script languaje="JavaScript">
 
            mesarray=new Array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio","Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
 
-          diaarray=new Array( "Domingo","Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado");
+          diaarray=new Array( "Domingo","Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado");
 
           hoy = new Date();
 
@@ -152,10 +152,10 @@
           document.write('</CENTER></TR></TD></TABLE>');
 
           </script>
-          ------------------------------------
+          <!------------------------------------>
           </div>
         </div>
-      </div>
+      </div><br><br>
       <hr>
       <div class="row">
         <div class="one whole padded">
@@ -171,7 +171,7 @@
                     </select>
                 </div>
                 <div class="one half padded">
-                  <label for="name">Licensia</label>
+                  <label for="name">Licencia</label>
                   <input id="name" type="text" placeholder="Licensia" required>
                 </div>
                 
@@ -197,7 +197,37 @@
           <hr><br>
         </div>
       </div>
-    </div>
+
+<article class="row bounceInUp animated">
+	<section class="one third padded">
+    	<h3>Mantenimiento de Licencias</h3>
+        <div class="row">
+            <div class="two-up-small-tablet one-up-mobile align-center"><img src="images/extras/foro.jpg" alt=""></div>
+           	<div class="two-up-small-tablet one-up-mobile">
+              	<p class="padded no-pad-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices.</p>
+            </div>
+        </div>
+    </section>
+    <section class="one third padded">
+    	<h3>Reportes</h3>
+        <div class="row">
+            <div class="two-up-small-tablet one-up-mobile align-center"><img src="images/extras/report3.jpg" alt=""></div>
+            <div class="two-up-small-tablet one-up-mobile">
+              	<p class="padded no-pad-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices.</p>
+            </div>
+        </div>
+    </section>
+    <section class="one third padded">
+    	<h3>Mantenimiento en el Foro</h3>
+        <div class="row">
+            <div class="two-up-small-tablet one-up-mobile align-center"><img src="images/extras/foro1.png" alt=""></div>
+            <div class="two-up-small-tablet one-up-mobile">
+              	<p class="padded no-pad-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices.</p>
+            </div>
+       	</div>
+    </section>
+</article>
+
     <footer class="gap-top bounceInUp animated">
       
       <div class="box square">
@@ -208,8 +238,10 @@
               <p>Find a bug? Help squash it by <a href="https://github.com/groundworkcss/groundwork/issues" target="_blank">filing an issue</a> on Github.</p>
             </div>
             <div class="one half padded">
-              <p class="large padded align-right align-center-small-tablet"><a href="http://twitter.com" target="_blank" title="@groundworkcss" style="text-decoration:none;" class="large inline gapped"></a>
-              <a href="http://github.com/groundworkcss" target="_blank" title="@groundworkcss" style="text-decoration:none;" class="large inline gapped"></a>
+              <p class="large padded align-right align-center-small-tablet">
+              <a href="http://facebook.com" class="icon-facebook-sign icon-2x" target="_blank" title="Facebook" style="text-decoration:none;"></a>
+              <a href="http://twitter.com"  class="icon-twitter-sign icon-2x" target="_blank" title="Twitter" style="text-decoration:none;"></a>
+
               <a href="mailto:groundworkcss@gmail.com" title="groundworkcss@gmail.com" style="text-decoration:none;" class="large inline gapped"></a></p>
             </div>
           </div>

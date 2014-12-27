@@ -80,10 +80,10 @@
           <ul role="menubar">
             <li><a href="index.html"><i class="icon-home"></i> SASUKI</a></li>
             <li role="menu">
-              <button  onclick = "location='listado.html'">MANTENIMIENTOS</button>
+              <button  onclick = "location='admin_main.jsp'">Mantenimientos</button>
               <ul>
 				<li><a href="./adminMantenimientoJuegos.jsp" title="Icons">Juegos</a></li>
-				<li><a href="./admin_MantenimientoLicensias.jsp" title="Icons">Licensias</a></li>
+				<li><a href="./admin_MantenimientoLicensias.jsp" title="Icons">Licencias</a></li>
                 <li><a href="./icons.html" title="Icons">Usuarios</a></li>
                 <li><a href="./responsive-text.html" title="Responsive text and multi-line text block truncation">Proximos Lanzamientos</a></li>
                 <li><a href="./placeholder-text.html" title="Placeholder text and placeholder fonts for rapid prototyping and wireframes">Los mas Recomendados</a></li>
