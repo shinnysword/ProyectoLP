@@ -164,8 +164,8 @@
             <div class="row">
                 <div class="one half padded">
                 <a href="#" rel="directory">Directory Link</a><br>
-                  <a href="example.doc">Word Document Link</a><br>
-                  <a href="example.pdf">PDF Document Link</a><br>
+                  <a href="example.doc">Manual Agregar Usuario</a><br>
+                  <a href="example.pdf">Manual Agegar Licencias</a><br>
                   <a href="example.zip">ZIP File Link</a>
                 </div>
               </div>
