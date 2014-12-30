@@ -1,3 +1,4 @@
+
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 
@@ -8,6 +9,7 @@
 <c:import url="head.jsp" />
 <body>
 <c:import url="header.jsp" />
+<c:import url="menuNormal.jsp" />
 <div class="container">
 	<div class="padded">
         <div class="row">
