@@ -24,7 +24,6 @@
       <div class="row">
         <div class="one whole padded">
           <div class="bounceInLeft animated">
-            <h4>Agregar Juegos</h4>
             <div class="row">
                 <div class="one half padded">
                   <label for="name">Nombre y/o Apellido del Usuario</label>
