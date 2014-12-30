@@ -54,6 +54,13 @@
                       <option value="">Shooters</option>
                       <option value="">Estrategia</option>
                     </select></span></div>
+                <div class="one half padded"><span class="select-wrap">
+                	<label for="name">Estado</label>
+                    <select>
+                      <option value="" disabled="" selected="">Estado</option>
+                      <option value="1">Activo</option>
+                      <option value="2">Inactivo</option>
+                    </select></span></div>    
               </div>
 			 </div>
             <div class="row">
